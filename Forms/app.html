@@ -1,1 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
 
+    <div class="container_form">
+        <h1 class="caption">ME CONTACTER</h1>
+        <form class="form" action="handler.php" method="post">
+            <div class="input_container">
+                <label for="name" class="input_img"><img src="img/user.png" alt=""></label>
+                <input class="input" type="text" name="name" placeholder="vorte nom" required>
+                <span class="tr"></span>
+            </div>
+            <div class="input_container">
+                <label for="email" class="input_img"><img src="img/mail.png" alt=""></label>
+                <input class="input" type="email" name="email" placeholder="vorte email" required>
+                <span class="tr"></span>
+            </div>
+            <div class="massage_container">
+                <label for="email" class="input_img"><img src="img/pensil.png" alt=""></label>
+                <textarea class="massage" name="massage" placeholder="vorte massage"></textarea>
+                <span class="tr"></span>
+            </div>
+            <input class ="submit" type ="submit" value ="envoyer">
+        </form>
+    </div>
+    <a href="table/table.html">Ссылка на таблицу</a>
+</body>
+</html>
